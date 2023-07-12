@@ -1,0 +1,28 @@
+fOR LOOPS
+
+example
+
+for (int i = 0; i < 3; i++)
+
+// int i = 0 initalizes the varible i to equal 0
+// next is the condition which will be checked every cycle thru the loop
+// i++ is what the program will do after each loop. which will add 1 to the variable i in each loop until it meets the condition of i < 3.
+// i = 0, is i < 3, if so print "meow" then a new line then reapet in each loop until i < 3 then the loop will stop.
+{
+	printf("meow\n");
+}
+-------------------------------------------------------------------------------
+
+for loops and while loops can be used for the same thing with subtle differences.
+
+example of same code above but with while loop
+
+int i = 0;
+while (i < 3);
+{
+	print("meow\n");
+	i++;
+}
+-------------------------------------------------------------------------------
+
+
